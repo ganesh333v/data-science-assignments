@@ -16,10 +16,11 @@ Enter Second number:3
 2.Write a Python programme to find out the given number is even or odd number
 #code
 a=int(input("Enter a number:")) 
-if (a%2)==0:
+if a%2==0:
     print(a,"is an even number")
 else:
     print(a,"is an odd number")
+
 #output
  Enter a number:6
 6 is an even number
